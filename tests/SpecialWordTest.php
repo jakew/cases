@@ -2,7 +2,6 @@
 
 namespace JakeW\Cases\Tests;
 
-
 use PHPUnit\Framework\TestCase;
 use JakeW\Cases\SpecialWord;
 

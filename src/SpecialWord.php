@@ -2,7 +2,6 @@
 
 namespace JakeW\Cases;
 
-
 /**
  * An extension of the Word class to support abnormal cases such as medial capitals.
  *
