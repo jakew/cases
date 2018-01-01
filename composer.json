@@ -1,0 +1,14 @@
+{
+  "name": "jakew/cases",
+  "description": "A PHP tool to be able to convert from and to many different programming cases.",
+  "license": "MIT",
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "JakeW\\Cases\\": "src/",
+      "JakeW\\Cases\\Tests\\": "tests/"
+    }
+  }
+}
