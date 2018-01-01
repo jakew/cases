@@ -2,7 +2,6 @@
 
 namespace JakeW\Cases\Tests;
 
-
 use JakeW\Cases\Dictionary;
 use PHPUnit\Framework\TestCase;
 use JakeW\Cases\Phrase;

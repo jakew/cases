@@ -2,7 +2,6 @@
 
 namespace JakeW\Cases;
 
-
 /**
  * A phrase or series of words used to describe something, with the ability to switch between camel and snake case
  * varients.
@@ -49,7 +48,6 @@ class Phrase
         // Combine letters to make sure acronym max length is preserved.
 
         foreach ($this->words as $word) {
-
             if (!$upperCamelCase) {
                 $phrase .= $word->getCapitalCase();
                 $upperCamelCase = true;

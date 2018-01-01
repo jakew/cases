@@ -12,13 +12,15 @@ class Dictionary
     /**
      * @var Dictionary The singleton instance of this dictionary.
      */
-    static protected $instance;
+    protected static $instance;
 
     /** @var string[][] The pairs of capital and lowercase words indexed by the strtolower version of each. */
     protected $words;
 
     /** Protected constructor to avoid outside instantiation. */
-    protected function __construct() {}
+    protected function __construct()
+    {
+    }
 
     /**
      * Add a word to the singletons dictionary.
